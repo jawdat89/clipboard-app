@@ -13,7 +13,7 @@
 }
 
 .section-content {
-  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+  @apply max-w-3xl mx-auto leading-9 text-center text-grayishBlue;
 }
 
 .section-container {
@@ -36,4 +36,10 @@
     background-repeat: round;
     background-size: cover;
   }
+}
+
+.ficon:hover {
+  @apply duration-200;
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
